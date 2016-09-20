@@ -613,6 +613,16 @@ rsyslog_max_message_size
 You can set a custom value for the maximum size of syslog.
 You can find more about it here: http://www.rsyslog.com/doc/v8-stable/configuration/global/index.html
 
+local_planb_tokeninfo
+--------------------
+
+**(optional)**
+
+You can run PlanB Tokeninfo locally, set this to true.
+It **requires** that you configure **networking** to **host**.
+You can find more information on PlanB Tokeninfo here: https://github.com/zalando/planb-tokeninfo
+
+
 Runtime environment
 +++++++++++++++++++
 
